@@ -17,7 +17,7 @@ In Response to b) This will deffenitey have good accuracies as we increment numb
 
 ## Start of the Analysis
 
- Serious thought was put into this and after going back and forth thinking in the best process to analyze this data it was realized to take the following steps:
+ Serious thought was put into this and after going back and forth thinking in the best process to analyze this data it was realized to take the following steps to create the full analysis displayed here: https://cargo.site/Templates
 
 ### 1) Individual Code Analysis: Start by fitting three neural network models with different cutoff points, test the model with test data set to point at the missclassifications corresponding the cutoff points for cars avobe/below 10k, 14k and 18k, & count the number of codes baing classified as correct/below correct/above incorrect/below correct/above --> This to compare three different tables, sort the codes by 1*)counts_on_testdata 2*)missclasification this to see codes that span most of the data & observe the ones are being missclasified; compare the different cutoff points with this to analyse individual codes with that are the most frequent in data set
 
